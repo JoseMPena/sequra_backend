@@ -15,9 +15,9 @@ The operations manager is now asking you to make a system to calculate how much 
 
 ## How to run the project:
 In order to run this project, you shoul:
-a) clone or fork the repositor
-b) Install the dependencies `bundle install`
-c) Create the necessary data structure `rails db:migrate`
+* a) clone or fork the repositor
+* b) Install the dependencies `bundle install`
+* c) Create the necessary data structure `rails db:migrate`
 
 Note: To launch the background jobs in development, you should run `bundle exec rake jobs:work` on adding it to the console or the `delayed_jobs.rb` script file under /lib/
 
@@ -26,7 +26,7 @@ In order to run the tests and ensure everything is working fine, run `rspec spec
 
 ## Pending tasks:
 Following tasks are pending as they couldn't be completed in specified timeframe:
-a) Ensure background jobs (disbursements) to be executed on Monday only
-b) Fine tune background Job tests
-c) Load merchant fixtures and modify tests to ensure required merchants are served thru the API endpoint
-d) General refactor, DRY out the code (remove repetitions), and more cleaning... 
+* a) Ensure background jobs (disbursements) to be executed on Monday only
+* b) Fine tune background Job tests
+* c) Load merchant fixtures and modify tests to ensure required merchants are served thru the API endpoint
+* d) General refactor, DRY out the code (remove repetitions), and more cleaning... 
